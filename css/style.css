@@ -1,0 +1,89 @@
+@import url('http://font.googleapis.com/css?family=Lexend Deca');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 2rem auto;
+    width: 90%;
+}
+
+article {
+    padding: 0 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.9rem;
+}
+
+.first-box {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.second-box {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.third-box {
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+img {
+    width: 20%;
+    margin: 1.6rem 0 1rem;
+}
+
+.heading {
+    margin-bottom: 1rem;
+}
+
+.paragraphs {
+    margin-bottom: 2rem;
+}
+
+.button {
+    background-color: hsla(0, 0%, 100%, 0.75);
+    padding: 0.6rem 1.6rem;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.first-button {
+    color: hsl(31, 77%, 52%);
+}
+
+.second-button {
+    color: hsl(184, 100%, 22%);;
+}
+
+.third-button {
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .first-box {
+        border-top-left-radius: 12px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 12px;
+    }
+
+    .third-box {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 12px;
+    }
+}
